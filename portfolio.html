@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Social Media & Marketing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ==============================
+       NAV
+  ============================== -->
+  <nav>
+    <span class="nav-logo">Your Name.</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#story">Journey</a></li>
+      <li><a href="#tools">Tools</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ==============================
+       SECTION 1 — HERO
+  ============================== -->
+  <section id="hero">
+    <div class="hero-text reveal">
+      <p class="section-label">Portfolio · 2025</p>
+      <h1 class="greeting">
+        Hello,<br/>
+        <em>Ocean State Job Lot.</em>
+      </h1>
+      <p class="subtext">Let me introduce myself.</p>
+      <a href="#about" class="hero-cta">See my work</a>
+    </div>
+
+    <!-- Right-side visual collage — swap src for real photos -->
+    <div class="hero-visuals reveal">
+      <div class="hero-img-card">
+        <div class="img-placeholder"><img src="images/lowbad.png"></div>
+      </div>
+      <div class="hero-img-card" style="aspect-ratio:1;">
+        <div class="img-placeholder"><img src="images/youtube_thumb.jpg"></div>
+      </div>
+      <div class="hero-img-card" style="aspect-ratio:1;">
+        <div class="img-placeholder"><img src="images/ctcf.png"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       SECTION 2 — ABOUT
+  ============================== -->
+  <section id="about">
+    <div class="about-inner">
+      <div class="about-left reveal">
+        <div class="about-portrait">
+          <div class="img-placeholder" style="height:100%"><img src="images/nick.png"></div>
+        </div>
+      </div>
+      <div class="about-right reveal">
+        <p class="section-label">About Me</p>
+        <h2 class="about-heading">
+          Storyteller.<br/>
+          Strategist.<br/>
+          Content Creator.
+        </h2>
+        <div class="divider"></div>
+        <p class="about-body">
+          I'm a social media and marketing professional with a passion for building authentic connections between brands and their audiences. My journey started long before it was a career — it started as a kid with a camera and a YouTube account.
+        </p>
+        <p class="about-body" style="margin-top:1rem;">
+          Today I combine data-driven strategy with genuine creativity to grow communities, launch campaigns, and tell stories that stick. I believe the best content doesn't feel like marketing at all.
+        </p>
+
+        <!-- Stats strip — edit freely -->
+        <div class="about-stats">
+          <div>
+            <div class="stat-num">50M+</div>
+            <div class="stat-label">Total views generated</div>
+          </div>
+          <div>
+            <div class="stat-num">300k+</div>
+            <div class="stat-label">Followers</div>
+          </div>
+          <div>
+            <div class="stat-num">4+</div>
+            <div class="stat-label">Years of content creation</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       SECTION 3 — STORY / JOURNEY
+  ============================== -->
+  <section id="story">
+    <div class="story-header reveal">
+      <p class="section-label">My Journey</p>
+      <h2>A social media story</h2>
+      <p>From a 10-year-old on YouTube to professional content strategist — here's every chapter.</p>
+    </div>
+
+    <!-- ==============================================
+         CHAPTER 1 — Layout A: Text + Single Video
+         Use this layout when you have one key video to show.
+    ============================================== -->
+    <div class="chapter timeline-spine reveal">
+      <span class="timeline-dot"></span>
+      <span class="chapter-year">2012</span>
+      <div class="chapter-content chapter-layout-a">
+        <div>
+          <span class="chapter-tag">YouTube · Age 10</span>
+          <h3>It started with a camera.</h3>
+          <p class="body-text">
+            My very first YouTube channel — no ring light, no script, no plan. Just a kid who loved making videos. I uploaded gaming walkthroughs and "random stuff" every week and somehow convinced 200 people to subscribe. It was the spark that started everything.
+          </p>
+        </div>
+        <!-- Embed a YouTube video: replace VIDEO_ID with the actual YouTube video ID -->
+        <div class="video-wrap">
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vh4EfAxXPZE?si=LLtmivgZ1oiR5fLW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==============================================
+         CHAPTER 2 — Layout B: Text + 3-Photo Grid
+         Use this layout when you have multiple photos / screenshots.
+    ============================================== -->
+    <div class="chapter timeline-spine reveal">
+      <span class="timeline-dot"></span>
+      <span class="chapter-year">2020</span>
+      <div class="chapter-content chapter-layout-b">
+        <div>
+          <span class="chapter-tag">Zealot News</span>
+          <h3>Indie Game Critic</h3>
+          <p class="body-text">
+            When Instagram hit peak popularity I jumped in head-first. I experimented with photography, presets, and consistent theming long before "personal brand" was a phrase I knew. I grew a small but engaged community around my hobby photography.
+          </p>
+        </div>
+        <!-- 3-photo grid: replace img-placeholder divs with real <img> tags -->
+        <div class="photo-grid-3">
+          <div class="photo-card"><div class="img-placeholder" style="height:100%"><img src="images/Zealot_banner.jpg" style="height:100%; object-fit: cover;"></div></div>
+          <div class="photo-card"><div class="img-placeholder" style="height:100%"><img src="images/zealot_vid.png" style="height:100%; object-fit: cover;"></div></div>
+          <div class="photo-card"><div class="img-placeholder" style="height:100%"><img src="images/zealot_post.png" style="height:100%; object-fit: cover;"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==============================================
+         CHAPTER 3 — Layout C: Full-width text + metric pills
+         Use this layout for campaigns with measurable results.
+    ============================================== -->
+    <div class="chapter timeline-spine reveal">
+      <span class="timeline-dot"></span>
+      <span class="chapter-year">2022</span>
+      <div class="chapter-content chapter-layout-c">
+        <span class="chapter-tag">Pixels After Dark</span>
+        <h3>Learning the algorithm.</h3>
+        <div class="two-column-space">
+          <p class="body-text">
+            My first real taste of virality. I studied every trend, posting time, and hashtag strategy I could find. A video about local events hit 80K views overnight. Numbers became feedback, and I became addicted to optimizing content for reach without sacrificing authenticity.
+          </p>
+          <img src="images/pad_logo.jpg" alt="Pixels After Dark Logo" style="width:100%; border-radius:8px; object-fit:cover; height:250px; width: 250px;">
+        </div>
+        <div class="metrics-strip">
+          <div class="metric-pill"><div class="num">50M+</div><div class="label">Organic video views</div></div>
+          <div class="metric-pill"><div class="num">300K+</div><div class="label">Followers</div></div>
+          <div class="metric-pill"><div class="num">15K+</div><div class="label">Sponsor Funding</div></div>
+          <div class="metric-pill"><div class="num">10+</div><div class="label">Trending moments</div></div>
+        </div>
+      </div>
+      <!-- AUTO-SCROLL VIDEO CAROUSEL
+           To add/remove videos: edit the .vid-reel-item blocks inside #vidReelTrack.
+           The JS will auto-clone them for infinite looping.
+           Replace VIDEO_ID in each data-video-id with the real YouTube ID.
+      -->
+      <div class="vid-reel" aria-label="Video highlights">
+        <div class="vid-reel-track" id="vidReelTrack">
+
+          <!-- CARD 1 — replace VIDEO_ID -->
+          <div class="vid-reel-item">
+            <div class="vid-reel-thumb" data-video-id="3nZJ0xqvLO4">
+              <img src="https://img.youtube.com/vi/3nZJ0xqvLO4/mqdefault.jpg" alt="Video thumbnail" onerror="this.style.display='none'">
+              <div class="vid-reel-play">
+                <svg viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="30" fill="rgba(255,255,255,0.92)"/><path d="M24 19l20 11-20 11V19z" fill="#c0622a"/></svg>
+              </div>
+              <div class="vid-reel-label">Trending Video</div>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="vid-reel-item">
+            <div class="vid-reel-thumb" data-video-id="Sog6w495Mss">
+              <img src="https://img.youtube.com/vi/Sog6w495Mss/mqdefault.jpg" alt="Video thumbnail" onerror="this.style.display='none'">
+              <div class="vid-reel-play">
+                <svg viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="30" fill="rgba(255,255,255,0.92)"/><path d="M24 19l20 11-20 11V19z" fill="#c0622a"/></svg>
+              </div>
+              <div class="vid-reel-label">Trending Video</div>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="vid-reel-item">
+            <div class="vid-reel-thumb" data-video-id="DcZaS2DveCE">
+              <img src="https://img.youtube.com/vi/DcZaS2DveCE/mqdefault.jpg" alt="Video thumbnail" onerror="this.style.display='none'">
+              <div class="vid-reel-play">
+                <svg viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="30" fill="rgba(255,255,255,0.92)"/><path d="M24 19l20 11-20 11V19z" fill="#c0622a"/></svg>
+              </div>
+              <div class="vid-reel-label">Best of</div>
+            </div>
+          </div>
+
+          <!-- CARD 4 -->
+          <div class="vid-reel-item">
+            <div class="vid-reel-thumb" data-video-id="xNKlBftMp_Y">
+              <img src="https://img.youtube.com/vi/xNKlBftMp_Y/mqdefault.jpg" alt="Video thumbnail" onerror="this.style.display='none'">
+              <div class="vid-reel-play">
+                <svg viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="30" fill="rgba(255,255,255,0.92)"/><path d="M24 19l20 11-20 11V19z" fill="#c0622a"/></svg>
+              </div>
+              <div class="vid-reel-label">Trending Video</div>
+            </div>
+          </div>
+
+          <!-- CARD 5 -->
+          <div class="vid-reel-item">
+            <div class="vid-reel-thumb" data-video-id="mIVYavQt0k4">
+              <img src="https://img.youtube.com/vi/mIVYavQt0k4/mqdefault.jpg" alt="Video thumbnail" onerror="this.style.display='none'">
+              <div class="vid-reel-play">
+                <svg viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="30" fill="rgba(255,255,255,0.92)"/><path d="M24 19l20 11-20 11V19z" fill="#c0622a"/></svg>
+              </div>
+              <div class="vid-reel-label">Best Of</div>
+            </div>
+          </div>
+
+        </div><!-- end #vidReelTrack -->
+
+        <!-- Lightbox overlay for playing videos -->
+        <div class="vid-reel-lightbox" id="vidReelLightbox" hidden>
+          <button class="vid-reel-close" id="vidReelClose" aria-label="Close video">&#x2715;</button>
+          <div class="vid-reel-player" id="vidReelPlayer"></div>
+        </div>
+
+      </div><!-- end .vid-reel -->
+    </div>
+
+    <!-- ==============================================
+         CHAPTER 4 — Layout D: Pull-quote + video
+         Use this layout for brand stories or testimonials.
+    ============================================== -->
+    <div class="chapter timeline-spine reveal">
+      <span class="timeline-dot"></span>
+      <span class="chapter-year">2025</span>
+      <div class="chapter-content chapter-layout-b">
+        <div>
+          <span class="chapter-tag">Coast to Coast Fulfillment</span>
+          <h3>Growing a Brand</h3>
+          <p class="body-text">
+            When Instagram hit peak popularity I jumped in head-first. I experimented with photography, presets, and consistent theming long before "personal brand" was a phrase I knew. I grew a small but engaged community around my hobby photography.
+          </p>
+        </div>
+        <!-- 3-photo grid: replace img-placeholder divs with real <img> tags -->
+        <div class="photo-grid-3">
+          <div class="photo-card"><div class="img-placeholder" style="height:100%"><img src="images/ctcf_stats.png" style="height:100%; object-fit: cover;"></div></div>
+          <div class="photo-card"><div class="img-placeholder" style="height:100%"><img src="images/ctcf.png" style="height:100%; object-fit: cover;"></div></div>
+          <div class="photo-card"><div class="img-placeholder" style="height:100%"><img src="images/ctcf-logo.png" style="height:100%; object-fit: cover;"></div></div>
+        </div>
+      </div>
+      <div class="metrics-strip">
+        <div class="metric-pill"><div class="num">100%</div><div class="label">Increase in daily views</div></div>
+        <div class="metric-pill"><div class="num">70%</div><div class="label">Increase in Google ranking</div></div>
+        <div class="metric-pill"><div class="num">10%</div><div class="label">Increase in lead gen.</div></div>
+        <div class="metric-pill"><div class="num">10+</div><div class="label">Trending moments</div></div>
+      </div>
+    </div>
+    </div>
+
+    <!-- ==============================================
+         CHAPTER 5 — Layout E: Centered text + photo row
+         Use this layout for multi-platform or overview chapters.
+    ============================================== -->
+    <div class="chapter reveal">
+      <span class="chapter-year" style="left:50%;transform:translateX(-50%);">2023</span>
+      <div class="chapter-content chapter-layout-e">
+        <div class="center-text">
+          <span class="chapter-tag">Full-Scale Strategy · Today</span>
+          <h3>The full picture.</h3>
+          <p class="body-text" style="max-width:none;">
+            Now I manage end-to-end social media strategy — from content calendars and community management to paid amplification and analytics reporting. Every project is a new story waiting to be told.
+          </p>
+        </div>
+        <!-- 4-photo row -->
+        <div class="photo-row">
+          <div class="photo-card"><div class="img-placeholder" style="height:100%">Project</div></div>
+          <div class="photo-card"><div class="img-placeholder" style="height:100%">Project</div></div>
+          <div class="photo-card"><div class="img-placeholder" style="height:100%">Project</div></div>
+          <div class="photo-card"><div class="img-placeholder" style="height:100%">Project</div></div>
+        </div>
+      </div>
+    </div>
+
+  </section><!-- end #story -->
+
+  <!-- ==============================
+       SECTION 4 — TOOLS CAROUSEL
+  ============================== -->
+  <section id="tools">
+    <div class="tools-inner">
+      <p class="section-label">My Toolkit</p>
+      <h2>Tools I work with</h2>
+
+      <div class="carousel-track-wrap">
+        <div class="carousel-track" id="carouselTrack">
+          <!-- Add / remove .tool-card blocks freely -->
+          <div class="tool-card">
+            <div class="tool-icon">📱</div>
+            <div class="tool-name">Instagram</div>
+            <div class="tool-cat">Social</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">🎵</div>
+            <div class="tool-name">TikTok</div>
+            <div class="tool-cat">Social</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">▶️</div>
+            <div class="tool-name">YouTube</div>
+            <div class="tool-cat">Video</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">🐦</div>
+            <div class="tool-name">X / Twitter</div>
+            <div class="tool-cat">Social</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">🎨</div>
+            <div class="tool-name">Canva</div>
+            <div class="tool-cat">Design</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">✏️</div>
+            <div class="tool-name">Adobe Suite</div>
+            <div class="tool-cat">Design</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">📊</div>
+            <div class="tool-name">Analytics</div>
+            <div class="tool-cat">Data</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">🗓️</div>
+            <div class="tool-name">Later</div>
+            <div class="tool-cat">Scheduling</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">🔍</div>
+            <div class="tool-name">SEMrush</div>
+            <div class="tool-cat">Research</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">📧</div>
+            <div class="tool-name">Mailchimp</div>
+            <div class="tool-cat">Email</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">🎬</div>
+            <div class="tool-name">CapCut</div>
+            <div class="tool-cat">Video Edit</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-icon">📌</div>
+            <div class="tool-name">Pinterest</div>
+            <div class="tool-cat">Social</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-controls">
+        <button class="carousel-btn" id="prevBtn" aria-label="Previous">&#8592;</button>
+        <button class="carousel-btn" id="nextBtn" aria-label="Next">&#8594;</button>
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       CONTACT / FOOTER
+  ============================== -->
+  <section id="contact">
+    <div class="container reveal">
+      <p class="section-label">Get in touch</p>
+      <h2>Let's build something together.</h2>
+      <p>Open to freelance projects, full-time roles, and collaborations.</p>
+      <a href="mailto:hello@yourname.com" class="contact-email">hello@yourname.com</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Your Name · Built with intention.</p>
+    </div>
+  </footer>
+
+  <!-- ==============================
+       JAVASCRIPT
+  ============================== -->
+  <script>
+    /* ----------------------------------------
+       SCROLL REVEAL
+    ---------------------------------------- */
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+            observer.unobserve(e.target);
+          }
+        });
+      },
+      { threshold: 0.12 }
+    );
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+
+    /* ----------------------------------------
+       YOUTUBE VIDEO EMBED ON CLICK
+    ---------------------------------------- */
+    document.querySelectorAll('.video-thumb').forEach(thumb => {
+      thumb.addEventListener('click', function () {
+        const videoId = this.dataset.videoId;
+        if (!videoId || videoId === 'REPLACE_VIDEO_ID') {
+          alert('Add your YouTube video ID to the data-video-id attribute.');
+          return;
+        }
+        const iframe = document.createElement('iframe');
+        iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+        iframe.allowFullscreen = true;
+        iframe.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:none;';
+        const wrap = this.closest('.video-wrap');
+        wrap.innerHTML = '';
+        wrap.appendChild(iframe);
+      });
+    });
+
+
+    /* ----------------------------------------
+       TOOLS CAROUSEL
+    ---------------------------------------- */
+    (function () {
+      const track  = document.getElementById('carouselTrack');
+      const prevBtn = document.getElementById('prevBtn');
+      const nextBtn = document.getElementById('nextBtn');
+      const dotsWrap = document.getElementById('carouselDots');
+
+      const cards        = Array.from(track.querySelectorAll('.tool-card'));
+      const cardWidth    = () => cards[0].offsetWidth + 19; // 19 = gap (1.2rem ≈ 19px)
+      const visibleCount = () => Math.floor(track.parentElement.offsetWidth / cardWidth());
+      const totalPages   = () => Math.max(1, cards.length - visibleCount() + 1);
+
+      let current = 0;
+
+      // Build dots
+      function buildDots () {
+        dotsWrap.innerHTML = '';
+        for (let i = 0; i < totalPages(); i++) {
+          const d = document.createElement('button');
+          d.className = 'carousel-dot' + (i === current ? ' active' : '');
+          d.setAttribute('aria-label', `Page ${i + 1}`);
+          d.addEventListener('click', () => goTo(i));
+          dotsWrap.appendChild(d);
+        }
+      }
+
+      function updateDots () {
+        document.querySelectorAll('.carousel-dot').forEach((d, i) => {
+          d.classList.toggle('active', i === current);
+        });
+      }
+
+      function goTo (index) {
+        current = Math.max(0, Math.min(index, totalPages() - 1));
+        track.style.transform = `translateX(-${current * cardWidth()}px)`;
+        updateDots();
+      }
+
+      prevBtn.addEventListener('click', () => goTo(current - 1));
+      nextBtn.addEventListener('click', () => goTo(current + 1));
+
+      buildDots();
+      window.addEventListener('resize', () => { buildDots(); goTo(0); });
+    })();
+
+
+    /* ----------------------------------------
+       AUTO-SCROLL VIDEO REEL (infinite loop)
+    ---------------------------------------- */
+    (function () {
+      const track    = document.getElementById('vidReelTrack');
+      if (!track) return;
+
+      const lightbox = document.getElementById('vidReelLightbox');
+      const player   = document.getElementById('vidReelPlayer');
+      const closeBtn = document.getElementById('vidReelClose');
+
+      // Clone items for seamless infinite scroll
+      const origItems = Array.from(track.querySelectorAll('.vid-reel-item'));
+      origItems.forEach(item => track.appendChild(item.cloneNode(true)));
+
+      let offset = 0;
+      let speed  = 0.5;   // px per frame — increase for faster scroll
+      let paused = false;
+
+      const CARD_W = () => origItems[0].offsetWidth + 16; // 16px = gap
+      const LOOP_W = () => CARD_W() * origItems.length;
+
+      function animate () {
+        if (!paused) {
+          offset += speed;
+          if (offset >= LOOP_W()) offset -= LOOP_W();
+          track.style.transform = `translateX(-${offset}px)`;
+        }
+        requestAnimationFrame(animate);
+      }
+      animate();
+
+      // Pause on hover
+      track.addEventListener('mouseenter', () => paused = true);
+      track.addEventListener('mouseleave', () => paused = false);
+
+      // Click thumbnail -> lightbox
+      track.addEventListener('click', (e) => {
+        const thumb = e.target.closest('.vid-reel-thumb');
+        if (!thumb) return;
+        const videoId = thumb.dataset.videoId;
+        if (!videoId || videoId.startsWith('REPLACE')) {
+          alert('Replace the data-video-id attribute with a real YouTube video ID.');
+          return;
+        }
+        player.innerHTML = `<iframe src="https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>`;
+        lightbox.hidden = false;
+        paused = true;
+      });
+
+      function closeLightbox () {
+        player.innerHTML = '';
+        lightbox.hidden  = true;
+        paused = false;
+      }
+
+      closeBtn.addEventListener('click', closeLightbox);
+      lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
+      document.addEventListener('keydown', e => { if (e.key === 'Escape' && !lightbox.hidden) closeLightbox(); });
+    })();
+  </script>
+</body>
+</html>
