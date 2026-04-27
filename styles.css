@@ -34,7 +34,7 @@
     }
     
     img { max-width: 100%; display: block; }
-    a   { color: inherit; text-decoration: none; }
+    a   { color: inherit; color:var(--bark) }
     
     /* ============================
     UTILITY
@@ -488,7 +488,7 @@
     background: rgba(255,255,255,0.12);
     transform: translateY(-4px);
     }
-    .tool-icon { font-size: 2.2rem; margin-bottom: 0.75rem; }
+    .tool-icon { font-size: 2.2rem; margin-bottom: 0.75rem; height:150px; max-height: 150px;}
     .tool-name { font-size: 0.9rem; font-weight: 500; color: var(--amber-200); margin-bottom: 0.25rem; }
     .tool-cat  { font-size: 0.72rem; color: rgba(255,255,255,0.4); letter-spacing: 0.06em; }
     
