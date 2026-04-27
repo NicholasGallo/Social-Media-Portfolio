@@ -695,4 +695,7 @@
     /* Responsive */
     @media (max-width: 600px) {
       .vid-reel-item { flex: 0 0 220px; }
+      .two-column-space{
+        flex-direction: column;
+      }
     }
